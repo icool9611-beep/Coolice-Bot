@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['233536714265']
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,10 +67,10 @@ const {
   }
   });
   console.log('Plugins installed successful âœ…')
-  console.log('your name connected to whatsapp âœ…')
+  console.log('Coolice-bot connected to whatsapp âœ…')
   
   let up =`â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-  â•‘      your name           
+  â•‘      Coolice-bot     
   â•‘  SUCCESSFULLY CONNECTED âœ… ðŸ˜        
   â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
   â•‘      â€¢ PREFIX: .            
@@ -81,8 +81,8 @@ const {
   â•‘ â™» ð–ð‡ð€ð“ð’ð€ðð ð‹ðˆððŠ          
   â•‘ https://wa.me/message/VRZ5QLDAHXKSF1                 
   â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
-  â•‘      your name               
-  â•‘ > Â© á´˜á´á´¡á´‡Ê€á´‡á´… Ê™Ê your name       
+  â•‘      Coolice-bot      
+  â•‘ > Â© á´˜á´á´¡á´‡Ê€á´‡á´… Ê™Ê Coolice-bot     
   â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 `;
   conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
